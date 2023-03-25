@@ -1,3 +1,4 @@
+# Make sure to set the intepreter path to Anaconda or MiniConda before running the program to ensure no errors
 # Import necessary modules
 import numpy as np
 import torch
