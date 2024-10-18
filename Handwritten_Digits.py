@@ -43,8 +43,6 @@ for e in range(epochs):
     for images, labels in trainloader:
         # Flatten MNIST images into a 784 long vector
         images = images.view(images.shape[0], -1)
-    
-        # TODO: Training pass
         
         # Clear the gradients, do this because gradients are accumulated
         optimizer.zero_grad()
